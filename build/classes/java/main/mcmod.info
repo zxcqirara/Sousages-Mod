@@ -1,0 +1,10 @@
+[{
+  "modid": "sausages",
+  "name": "Sausages Mod",
+  "description": "A modding tutorial mod.",
+  "version": "1.0",
+  "mcversion": "1.12",
+  "authorList": ["ChA0S_f4me"],
+  "credits": "My Dick",
+  "dependencies": []
+}]
