@@ -7,12 +7,12 @@
  
 ## English
 ### About Mod
-Mod for sausages! in general, this is a fan mod, it will add different things, blocks, etc... I will be glad to receive criticism and suggestions
+Mod for sausages! in general, this is a fan mod, it will add different things, blocks, etc... I will be glad to receive ~~criticism~~ and suggestions
 ### P.S.
 I'm Russian :)
 
 ## Український
 ### Про моду
-Мод на сосиски! Взагалі, це фановий мод, в нього будуть додаватися різні речі, блоки та ін... Буду радий критиці та пропозиціям
+Мод на сосиски! Взагалі, це фановий мод, в нього будуть додаватися різні речі, блоки та ін... Буду радий ~~критиці та~~ пропозиціям
 ### P.S.
 Я Російська :)
