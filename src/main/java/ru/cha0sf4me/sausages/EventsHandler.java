@@ -14,17 +14,9 @@ import javax.xml.soap.Text;
 
 public class EventsHandler {
     @SubscribeEvent
-    public void onJoin(EntityJoinWorldEvent e) {
-        if (e.getWorld().isRemote && e.getEntity() instanceof EntityPlayer) {
-            EntityPlayer player = (EntityPlayer) e.getEntity();
-            player.sendMessage(new TextComponentString(TextFormatting.GREEN+"Hello, "+TextFormatting.AQUA+player.getDisplayName()+TextFormatting.GREEN+"! Welcome to world!"));
-        }
-    }
-
-    @SubscribeEvent
     public void onLoot(LootTableLoadEvent e) {
-        if (LootTableList.CHESTS_JUNGLE_TEMPLE.equals(e.getName())) {
-            final ResourceLocation loc = new ResourceLocation("sausages", "loot/sausage_seeds");
+        if (LootTableList.CHESTS_ABANDONED_MINESHAFT.equals(e.getName())) {
+            final ResourceLocation loc = new ResourceLocation("sausages", "chests/sausage_seeds");
             final LootTable customLootTable = e.getLootTableManager().getLootTableFromLocation(loc);
             e.setTable(customLootTable);
         }
