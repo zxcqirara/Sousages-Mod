@@ -1,4 +1,4 @@
-package ru.cha0sf4me.sausages;
+package ru.cha0sf4me.sausages.register;
 
 import net.minecraft.block.Block;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;

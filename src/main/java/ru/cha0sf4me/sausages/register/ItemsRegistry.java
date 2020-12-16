@@ -1,4 +1,4 @@
-package ru.cha0sf4me.sausages;
+package ru.cha0sf4me.sausages.register;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -9,7 +9,7 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import ru.cha0sf4me.sausages.Items.*;
 
-public class ItemsRegister
+public class ItemsRegistry
 {
     public static Item SAUSAGE = new Sausage("sausage", 1, 0F, true);
     public static Item KNIFE = new Knife("knife");

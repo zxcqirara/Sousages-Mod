@@ -4,14 +4,13 @@ import net.minecraft.block.BlockCrops;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
 import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import net.minecraftforge.common.EnumPlantType;
-import ru.cha0sf4me.sausages.ItemsRegister;
+import ru.cha0sf4me.sausages.register.ItemsRegistry;
 
 import java.util.Random;
 
@@ -39,13 +38,13 @@ public class BlockCropSausage extends BlockCrops {
 
     @Override
     protected Item getSeed() {
-        return ItemsRegister.SAUSAGE_SEED;
+        return ItemsRegistry.SAUSAGE_SEED;
     }
 
     @Override
     protected Item getCrop() {
         if (new Random().nextInt(100) <= 10)
-            return ItemsRegister.SAUSAGE;
+            return ItemsRegistry.SAUSAGE;
         else
             return Items.AIR;
     }

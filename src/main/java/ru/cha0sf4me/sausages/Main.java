@@ -7,8 +7,8 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import net.minecraftforge.fml.common.registry.GameRegistry;
 import ru.cha0sf4me.sausages.proxy.CommonProxy;
+import ru.cha0sf4me.sausages.register.ItemsRegistry;
 
 @Mod(modid = Main.MODID, name = Main.NAME, version = Main.VER)
 public class Main {
@@ -22,7 +22,7 @@ public class Main {
     public static final CreativeTabs modTab = new CreativeTabs("modTab") {
         @Override
         public ItemStack getTabIconItem() {
-            return new ItemStack(ItemsRegister.SAUSAGE);
+            return new ItemStack(ItemsRegistry.SAUSAGE);
         }
     };
 

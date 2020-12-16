@@ -1,0 +1,15 @@
+{
+  "pools": [
+    {
+      "name": "sausage_seeds",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "sausages:sausage",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

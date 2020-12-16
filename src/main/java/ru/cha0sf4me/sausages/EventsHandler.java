@@ -1,8 +1,12 @@
 package ru.cha0sf4me.sausages;
 
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.text.TextComponentString;
 import net.minecraft.util.text.TextFormatting;
+import net.minecraft.world.storage.loot.LootTable;
+import net.minecraft.world.storage.loot.LootTableList;
+import net.minecraftforge.event.LootTableLoadEvent;
 import net.minecraftforge.event.entity.EntityJoinWorldEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
@@ -14,6 +18,15 @@ public class EventsHandler {
         if (e.getWorld().isRemote && e.getEntity() instanceof EntityPlayer) {
             EntityPlayer player = (EntityPlayer) e.getEntity();
             player.sendMessage(new TextComponentString(TextFormatting.GREEN+"Hello, "+TextFormatting.AQUA+player.getDisplayName()+TextFormatting.GREEN+"! Welcome to world!"));
+        }
+    }
+
+    @SubscribeEvent
+    public void onLoot(LootTableLoadEvent e) {
+        if (LootTableList.CHESTS_SPAWN_BONUS_CHEST.equals(e.getName())) {
+            final ResourceLocation loc = new ResourceLocation("sausages", "loot/sausage_seeds");
+            final LootTable customLootTable = e.getLootTableManager().getLootTableFromLocation(loc);
+            e.setTable(customLootTable);
         }
     }
 }
