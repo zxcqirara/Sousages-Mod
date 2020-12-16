@@ -23,7 +23,7 @@ public class EventsHandler {
 
     @SubscribeEvent
     public void onLoot(LootTableLoadEvent e) {
-        if (LootTableList.CHESTS_SPAWN_BONUS_CHEST.equals(e.getName())) {
+        if (LootTableList.CHESTS_JUNGLE_TEMPLE.equals(e.getName())) {
             final ResourceLocation loc = new ResourceLocation("sausages", "loot/sausage_seeds");
             final LootTable customLootTable = e.getLootTableManager().getLootTableFromLocation(loc);
             e.setTable(customLootTable);
