@@ -15,9 +15,9 @@ import ru.cha0sf4me.sausages.Main;
 public class Knife extends Item {
     private static final Integer MobDamage = 4;
 
-    public Knife(String string) {
-        this.setUnlocalizedName(string);
-        this.setRegistryName(string);
+    public Knife(String name) {
+        this.setUnlocalizedName(name);
+        this.setRegistryName(name);
         this.setCreativeTab(Main.modTab);
         this.setMaxStackSize(1);
         this.setMaxDamage(40);
