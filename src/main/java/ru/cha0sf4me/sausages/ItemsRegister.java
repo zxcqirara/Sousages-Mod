@@ -11,9 +11,9 @@ import ru.cha0sf4me.sausages.Items.*;
 
 public class ItemsRegister
 {
-    public static Item SAUSAGE = new Sausage("sausage");
+    public static Item SAUSAGE = new Sausage("sausage", 1, 0F, true);
     public static Item KNIFE = new Knife("knife");
-    public static Item SLICE = new Slice("slice");
+    public static Item SLICE = new Slice("slice", 1, 0F, true);
     public static Item FRIED_SLICE = new FriedSlice("fried_slice", 6, 0.2F, true);
     public static Item SAUSAGE_SEED = new SausageSeeds("sausage_seed");
 
