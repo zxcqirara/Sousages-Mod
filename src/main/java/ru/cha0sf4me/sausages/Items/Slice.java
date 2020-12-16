@@ -21,6 +21,6 @@ public class Slice extends ItemFood {
         super.onFoodEaten(stack, worldIn, player);
 
         if (player.getFoodStats().getFoodLevel() > 2)
-            player.addPotionEffect(new PotionEffect(MobEffects.HUNGER, 10, 2));
+            player.addPotionEffect(new PotionEffect(MobEffects.HUNGER, 200, 4));
     }
 }

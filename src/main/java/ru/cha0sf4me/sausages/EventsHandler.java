@@ -11,7 +11,7 @@ import javax.xml.soap.Text;
 public class EventsHandler {
     @SubscribeEvent
     public void onJoin(EntityJoinWorldEvent e) {
-        if (e.getEntity() instanceof EntityPlayer) {
+        if (e.getWorld().isRemote && e.getEntity() instanceof EntityPlayer) {
             EntityPlayer player = (EntityPlayer) e.getEntity();
             player.sendMessage(new TextComponentString(TextFormatting.GREEN+"Hello, "+TextFormatting.AQUA+player.getDisplayName()+TextFormatting.GREEN+"! Welcome to world!"));
         }
