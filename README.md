@@ -19,4 +19,3 @@ I'm Russian :)
 ### P.S.
 Я Російська :)
 ![](https://img.shields.io/badge/|-Скачавши-blue?style=flat-square&link=https://github.com/ChA0S-f4me/Sousages-Mod/releases/tag/1.12.2?link=https://github.com/ChA0S-f4me/Sousages-Mod/releases/tag/1.12.2&logo=V)
-![](https://img.shields.io/badge/|-Скачавши-blue?style=flat-square&link=https://github.com/ChA0S-f4me/Sousages-Mod/releases/tag/1.12.2?link=https://github.com/ChA0S-f4me/Sousages-Mod/releases/tag/1.12.2&logo=V)
