@@ -5,7 +5,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import ru.cha0sf4me.sausages.register.BlocksRegistry;
-import ru.cha0sf4me.sausages.EventsHandler;
+import ru.cha0sf4me.sausages.register.EventsRegistry;
 import ru.cha0sf4me.sausages.register.ItemsRegistry;
 
 public class CommonProxy
@@ -14,7 +14,7 @@ public class CommonProxy
     {
         ItemsRegistry.register();
         BlocksRegistry.register();
-        MinecraftForge.EVENT_BUS.register(new EventsHandler());
+        MinecraftForge.EVENT_BUS.register(new EventsRegistry());
     }
 
     public void init(FMLInitializationEvent event)
