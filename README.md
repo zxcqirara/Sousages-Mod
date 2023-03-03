@@ -6,7 +6,7 @@
  
 ## English
 ### About Mod
-Mod for sausages! in general, this is a fan mod, it will add different things, blocks, etc... I will be glad to receive ~~criticism and~~ suggestions
+Mod for sausages! In general, this is a fan mod, different thing, blocks, etc will be added... I will be glad to receive ~~criticism and~~ suggestions
 ![](https://img.shields.io/badge/|-Download-blue?style=flat-square&link=https://github.com/ChA0S-f4me/Sousages-Mod/releases/tag/1.12.2?link=https://github.com/ChA0S-f4me/Sousages-Mod/releases/tag/1.12.2&logo=V)
 
 ## Український
